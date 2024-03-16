@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+*{
+    box-sizing: border-box;
+}
+.Header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 .2rem 1rem rgba(0,0,0,1);
+}
+
+/* LOGO  */
+.logo{
+    width: 15%;
+    margin: 0% 3%;
+}
+.logo img{
+    width: 60%;
+}
+
+
+/* NAVBAR  */
+.navvbar{
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 20px;
+    
+
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    width: 9%;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+}
+.subclass{
+    width: 110%;
+    height: fit-content;
+}
+.subclass2{
+    width: 140%;
+    height: fit-content;
+}
+.subclass3{
+    width: 95%;
+    height: fit-content;
+}
+.subclass4{
+    width: 85%;
+    height: fit-content;
+}
+.nav a img{
+    /* width: 30%; */
+    height: auto;
+}
+.nav a:hover{
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.headerLogin{
+    margin: 0% 2%;
+    width: 25%;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0%;
+    
+}
+
+.searchbar{
+    box-sizing: border-box;
+    margin: 3%;
+    width: 150%;
+    height: fit-content;
+    padding-bottom: 0%;
+    border: 3px solid rgb(50, 176, 231);
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(50, 176, 231)   ;
+}
+.searchbar input{
+    border:none;
+    border-radius: 8px;
+    margin: 0.5%;
+}
+.searchbar input:focus {
+    outline: none;
+}
+/* .material-symbols-outlined{
+    background-color: rgb(50, 176, 231)   ;
+} */
+
+
+.btn{
+    width: 25%;
+}
+.btn img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 1000 */
+@media (max-width: 1000px){
+    .Header{
+
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 700 */
+@media (max-width: 700px){
+    .Header{
+        
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}
+
+
+
+
+/* MEDIA QUERIES FOR MAX-WIDTH - 500 */
+@media (max-width: 500px){
+    .Header{
+        
+    }
+    .logo{
+
+    }
+    .navbar{
+
+    }
+    .social-media{
+        background-color: aqua;
+    }
+}

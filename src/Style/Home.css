@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.Homepage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro{
+    width: 30%;
+    padding: 1%;
+    margin-top: 2%;
+    height: 50vh;
+    background-color: rgb(13, 161, 219);
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-title{
+    align-items: center ;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.intro-details{
+    margin-left: 5%;
+    color: white;
+}
+.intro-details ul li{
+    margin-bottom: 15px;
+}
+
+
+.go-to-login{
+    padding: 1%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+button{
+    background-color: yellow;
+    padding: 1% 5%;
+    box-sizing: none;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(23, 238, 23);
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}

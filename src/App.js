@@ -6,8 +6,11 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Home from './Components/Home';
 import PatientDashboard from './Components/PatientDashboard';
 import DoctorDashboard from './Components/DoctorDashboard';
-import Login from './Components/Login';
-import Register from './Components/Register';
+import LoginDoctor from './Components/LoginDoctor';
+import LoginPatient from './Components/LoginPatient';
+import RegisterDoctor from './Components/RegisterDoctor';
+import RegisterPatient from './Components/RegisterPatient';
+import ViewMedicalHistory from './Components/ViewMedicalHistory';
 
 // COMPONENTS 
 import Header  from './Components/Header';
@@ -15,8 +18,20 @@ import Footer  from './Components/Footer';
 
 
 
-// CSS 
 
+import { Button, Collapse, Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+// CSS 
+import './Style/Home.css';
+import './Style/Header.css';
+import './Style/RegisterPatient.css';
+import './Style/PatientDashboard.css';
+import './Style/LoginPatient.css';
+import './Style/RegisterDoctor.css';
+import './Style/ViewMedicalHistory.css';
 
 function App() {
   return (
@@ -27,8 +42,11 @@ function App() {
           <Route path="/" element= {<Home/>}/>
           <Route path="/DoctorDashboard" element= {<DoctorDashboard/>}/>
           <Route path="/PatientDashboard" element= {<PatientDashboard/>}/>
-          <Route path="/Login" element= {<Login/>}/>
-          <Route path="/Register" element= {<Register/>}/>
+          <Route path="/LoginDoctor" element= {<LoginDoctor/>}/>
+          <Route path="/LoginPatient" element= {<LoginPatient/>}/>
+          <Route path="/RegisterDoctor" element= {<RegisterDoctor/>}/>
+          <Route path="/RegisterPatient" element= {<RegisterPatient/>}/>
+          <Route path="/ViewMedicalHistory" element= {<ViewMedicalHistory/>}/>
         </Routes>
       <Footer/>
       </Router> 

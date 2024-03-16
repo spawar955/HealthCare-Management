@@ -1,0 +1,35 @@
+.view-medical-history {
+    padding: 20px;
+}
+
+.view-medical-history h2 {
+    margin-bottom: 20px;
+}
+
+.medical-history-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.medical-record {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medical-record div {
+    margin-bottom: 10px;
+}
+
+.medical-record strong {
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .medical-history-list {
+        grid-template-columns: 1fr;
+    }
+}
