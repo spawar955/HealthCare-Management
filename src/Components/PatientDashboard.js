@@ -1,28 +1,18 @@
-import React from 'react' 
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PatientDashboard = () => {
     return (
-        <>
         <div className="patient-dashboard">
-            <h2 style={{marginBottom:'5%'}}>Welcome to Your Patient Dashboard</h2>
-            <div className="dashboard-options">
-                <div className="option">
+            <h2 style={{ marginBottom: '5%' }}>Welcome to Your Patient Dashboard</h2>
+            <div className="patient-option" style={{cursor:'pointer'}}>
+                <Link to="/ViewMedicalHistory" className="options" style={{ textDecoration: 'none' }}>
                     <h3>View Medical History</h3>
                     <p>View your medical records and history.</p>
-                </div>
-                <div className="option">
-                    <h3>Book Appointment</h3>
-                    <p>Schedule an appointment with your doctor.</p>
-                </div>
-                <div className="option">
-                    <h3>Choose Your Doctor</h3>
-                    <p>Explore and select your preferred doctor.</p>
-                </div>
+                </Link>
             </div>
         </div>
-        </>
-    )
+    );
+};
 
-}
-
-export default PatientDashboard 
+export default PatientDashboard;

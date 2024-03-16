@@ -1,38 +1,33 @@
-.view-medical-history {
+.view-patients {
     padding: 20px;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.view-medical-history h2 {
+.view-patients h2 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.medical-history-list {
+.patient-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
-.medical-record {
+.patient {
     background-color: #f8f9fa;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.medical-record div {
+.patient h3 {
     margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
-.medical-record strong {
-    font-weight: bold;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .medical-history-list {
-        grid-template-columns: 1fr;
-    }
+.patient p {
+    font-size: 1rem;
+    color: #666;
 }

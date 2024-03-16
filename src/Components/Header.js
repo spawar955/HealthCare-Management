@@ -9,8 +9,8 @@ const Header = () => {
                         <a href='/'><img src="Logo.png" alt="Logo" /></a>
                 </div>
                 <div className="navvbar">
-                    <div className="nav" ><a className='subclass' href="/">Home</a></div> 
-                    <div className="nav"><a className='subclass2' href="/">Login</a></div>
+                    <div className="nav" ><a className='subclass' href="/"><h6>Home</h6></a></div> 
+                    <div className="nav"><a className='subclass2' href="/LoginPatient"><h6>Login</h6></a></div>
                 </div>
                 <div className="headerLogin">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

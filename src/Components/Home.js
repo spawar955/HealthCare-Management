@@ -14,6 +14,7 @@ const Home = () => {
                 </div>
                 <div className='go-to-login'>                
                     <button><a href='/LoginPatient'>Login as Patient</a></button>
+                    <button><a href='/RegisterPatient'>Register as Patient</a></button>
                 </div>
             </div>
             <div className="intro">
@@ -27,6 +28,7 @@ const Home = () => {
                 </div>
                 <div className='go-to-login'>                
                     <button><a href='/LoginDoctor'>Login as Doctor</a></button>
+                    <button><a href='/RegisterDoctor'>Register as Doctor</a></button>
                 </div>
             </div>
                 

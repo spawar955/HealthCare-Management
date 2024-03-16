@@ -43,8 +43,11 @@ const RegisterDoctor = () => {
                         <div className="form-group">
                             <input type="password" placeholder='Password' id="password" name="password" value={formData.password} onChange={handleChange} required />
                         </div>
-                        <div className='go-to-login'>
-                            <button type="submit">Register</button>
+                        <div className='go-to-register'>
+                            <button type="submit"><a href='/DoctorDashboard'>Register</a></button>
+                        </div>
+                        <div className="end-message">
+                            Already have an account? <a href='/LoginDoctor'>Login</a>
                         </div>
                     </form>
                 </div>

@@ -1,0 +1,54 @@
+.add-report-page {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-report {
+    max-width: 600px;
+    width: 100%;
+}
+
+.add-report h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.addreport-form-group {
+    margin-bottom: 20px;
+}
+
+.addreport-form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.addreport-form-group input[type="text"],
+.addreport-form-group input[type="date"],
+.addreport-form-group textarea,
+.addreport-form-group button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.addreport-form-group input[type="text"]:focus,
+.addreport-form-group input[type="date"]:focus,
+.addreport-form-group textarea:focus,
+.addreport-form-group button[type="submit"]:focus {
+    border: none;
+    outline: none;
+}
+
+.addreport-form-group button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.addreport-form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+}

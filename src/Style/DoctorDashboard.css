@@ -1,0 +1,44 @@
+.doctor-dashboard {
+    padding: 20px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-options {
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-option {
+    background-color: #f0f0f0;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.doctor-option:hover {
+    background-color: yellow;
+}
+
+.doctor-option h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.doctor-option p {
+    font-size: 1rem;
+    color: #666;
+}

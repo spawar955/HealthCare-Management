@@ -1,13 +1,14 @@
-.login-body{
+.request-body{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.login-patient{
+
+.request-medical-history-change{
     padding: 1%;
-    height: 40vh;
-    width: 20%;
+    /* min-height: 40vh; */
+    width: 30%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     display: flex;
@@ -15,22 +16,23 @@
     justify-content: space-between;
 }
 
-.form-group{
-    margin: 10% 0%;
+.request-form-group{
+    margin: 2% 0%;
 }
 
-.form-group input{
+.request-form-group input{
     width: 100%;
     padding: 5%;
     border: none;
     border-radius: 15px;
 }
-.form-group  input:focus{
+.request-form-group  input:focus{
     border: none;
     outline: none;
 }
-
-.end-message{
-    margin-top: 5%;
-    margin-bottom: 50%;
+.request-form-group textarea{
+    width: 100%;
+    padding: 5%;
+    border-radius: 15px;
+    border: none;
 }

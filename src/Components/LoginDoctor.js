@@ -32,6 +32,9 @@ const LoginDoctor = () => {
                         </div>
                     </form>
                 </div>
+                <div className="end-message">
+                    No account? <a href='/RegisterDoctor'>Register</a>
+                </div>
             </div>
         </div>
     );

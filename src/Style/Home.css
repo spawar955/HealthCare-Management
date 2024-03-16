@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -19,9 +20,10 @@ body{
     width: 30%;
     padding: 1%;
     margin-top: 2%;
-    height: 50vh;
-    background-color: rgb(13, 161, 219);
+    height: 60vh;
+    background-color: rgb(97, 100, 239);
     border-radius: 5%;
+    font-size: large;
 
     display: flex;
     flex-direction: column;

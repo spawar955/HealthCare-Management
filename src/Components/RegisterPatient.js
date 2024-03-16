@@ -45,9 +45,12 @@ const RegisterPatient = () => {
                         </div>
                     </form>
                 </div>
-                        <div className='go-to-login'>                
-                            <button type="submit">Register</button>
-                        </div>
+                <div className='go-to-register'>
+                    <button type="submit"><a href='/PatientDashboard'>Register</a></button>
+                </div>
+                <div className="end-message">
+                    Already have an account? <a href='/LoginPatient'>Login</a>
+                </div>
             </div>
         </div>
         </>

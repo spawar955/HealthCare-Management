@@ -1,14 +1,18 @@
 .patient-dashboard {
     padding: 20px;
+    width: 100%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .dashboard-options {
     gap: 20px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,16 +26,54 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.option:hover {
+.patient-dashboard {
+    padding: 20px;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-options {
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient-option {
+    background-color: #f0f0f0;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.patient-option:hover{
     background-color: yellow;
 }
 
-.option h3 {
+.patient-option h3 {
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
 
-.option p {
+.patient-option p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.patient-option h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.patient-option p {
     font-size: 1rem;
     color: #666;
 }
